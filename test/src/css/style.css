@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantarell&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0 auto;
+  font-family: 'Roboto';
+  height: 100%; }
+
+header {
+  background-image: url("../img/header_background_v1.jpg");
+  min-height: 100vh;
+  width: 100%;
+  min-width: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  header section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%; }
+
+h1 {
+  text-transform: uppercase;
+  color: #ECECEC;
+  font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+  font-size: 24px; }
+
+.logo img {
+  height: 145px; }
+
+nav {
+  height: fit-content;
+  margin: 10px;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse; }
+  nav a {
+    text-decoration: none;
+    color: #ECECEC;
+    text-transform: uppercase;
+    margin: 5%;
+    font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+    font-size: 15px; }
+    nav a {
+      font-weight: bold; }
+
+.top-wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.btn-top, .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  margin: 1%;
+  background-color: #01ACAC;
+  text-decoration: none;
+  font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+  font-size: 15px;
+  color: #ECECEC; }
+
+.about div img {
+  width: 100%;
+  min-width: 500px; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1280px; }
+  main section article {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #EFEFEF;
+    margin: 2% 0;
+    min-width: 500px; }
+    main section article img {
+      margin-right: 1%;
+      height: 100%;
+      max-height: 318px; }
+    main section article div {
+      max-height: 318px;
+      overflow-y: auto; }
+
+.toolbar {
+  align-self: flex-end;
+  margin: 1% 0; }
+  .toolbar input {
+    height: 50px;
+    width: 200px;
+    padding: 1%; }
+
+.post-list, .contact-form {
+  display: flex;
+  flex-direction: column; }
+  .post-list h1, .contact-form h1 {
+    align-self: flex-end;
+    color: #010F16; }
+
+.about p {
+  margin: 1% 0;
+  font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+  font-size: 15px;
+  min-width: 500px; }
+.about div {
+  display: flex;
+  flex-direction: column; }
+  .about div h1 {
+    align-self: flex-end;
+    color: #010F16; }
+
+.post {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+  font-size: 15px; }
+  .post h3 {
+    font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+    font-size: 24px;
+    color: #01ACAC;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .post div {
+    padding: 1%;
+    color: #E9034F;
+    font-weight: bold;
+    border-bottom: 2px solid #78919D;
+    margin-bottom: 1%; }
+  .post p {
+    margin: 1% 0;
+    font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+    font-size: 15px; }
+
+article div {
+  display: flex;
+  flex-direction: column; }
+  article div button {
+    align-self: flex-end; }
+
+.contact-form {
+  margin: 1% 0;
+  display: flex;
+  min-width: 500px; }
+  .contact-form h4 {
+    align-self: flex-end; }
+
+.name, .email, .question-form-wrapper {
+  display: flex;
+  flex-direction: column; }
+  .name span, .email span, .question-form-wrapper span {
+    align-self: flex-end; }
+
+.name-email {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; }
+  .name-email div {
+    width: 45%; }
+    .name-email div input {
+      height: 40px;
+      margin: 1% 0; }
+
+[name="autorization-form"] {
+  margin: 2% 0;
+  color: #01ACAC;
+  display: flex;
+  flex-direction: column; }
+  [name="autorization-form"] button {
+    align-self: flex-end; }
+
+[name="question-form"] {
+  margin: 1% 0; }
+
+footer {
+  min-width: 500px;
+  width: 100vw; }
+  footer span {
+    font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+    font-size: 15px; }

@@ -1,0 +1,42 @@
+//import fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');//Roboto
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');//Ubuntu
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');//Cantarell
+
+
+//import fonts
+//mixins for fonts
+
+@mixin font-Roboto ($size) {
+    font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'Helvetica', sans-serif;
+    font-size: $size;
+}
+@mixin font-Palatino ($size) {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: $size;
+}
+
+//mixins for fonts
+//variables for fonts
+$fs-large-Roboto: 24px;
+$fs-small-Roboto: 15px;
+
+$fs-small-Palatino: 18px;
+$fs-large-Palatino: 26px;
+//variables for fonts
+//colors
+$bright-color: #ECECEC;
+$top-button-color: #01ACAC;
+$section-bc: #EFEFEF;
+$anchor-text-color: #010F16;
+$anchor-text-color: #010F16;
+$user-changes-color: #E9034F;
+$user-changes-border-color: #78919D;
+
+
+//colors
+// min width 
+$min-width-500: 500px;
+// min width 
+
+
